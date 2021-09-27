@@ -12,15 +12,18 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-    
 	<body class="is-preload">
-        <!-- Wrapper -->
-			<div id="wrapper">
 
-        {{ content }}
-        </div>
+		{% include nav.html %}
 
-		<!-- Footer -->
+		<!-- Wrapper -->
+        	<div id="wrapper">
+
+				{{ content }}
+
+        	</div>
+
+        <!-- Footer -->
 			<footer id="footer" class="wrapper style1-alt">
 				<div class="inner">
 					<ul class="menu">
